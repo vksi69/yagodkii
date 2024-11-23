@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(227, 222, 221, 0.774);
+}
+.box{
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    width: 1400px;
+    height: 50px; 
+    background: #683142;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    font-size: 15px;
+    gap: 20px;
+    color: aliceblue;
+}
+header{
+    width: 1400px;
+    height: 400px; 
+    background: #D39CBD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  flex-wrap: wrap;
+}
+.header_item1{
+    width: 600px;
+    height: 300px; 
+    font-size: 20px;
+    font-weight: 20px;
+}
+.header_item2{
+    width: 600px;
+    height: 300px; 
+}
+img{
+    width: 400px;
+    height: 300px; 
+}
+main{
+    width: 1400px;
+    height: 600px; 
+    background: #995E7C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  flex-wrap: wrap;
+}
+main h2{
+    width: 100%;
+    text-align: center;
+}
+.main_item{
+    width: 400px;
+    height: 250px; 
+}
+.main_item img{
+    width: 370px;
+    height: 250px; 
+}
+aside{
+    width: 1400px;
+    height: 300px; 
+    background: #D39CBD;   
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.aside_item{
+    width: 1300px;
+    height: 150px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.aside_item1{
+    width: 200px;
+    height: 100px;
+margin: 15px;
+}
+.aside_item1 img{
+    width: 200px;
+    height: 150px;
+}
+section{
+    width: 1400px;
+    height: 450px; 
+    background: #995E7C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+section h2{
+    text-align: center;
+    width: 100%;
+}
+.section_item{
+    width: 600px;
+    height: 100px;
+}
+footer{
+    width: 1400px;
+    height: 100px; 
+    background: #683142;
+    display: flex;
+    gap: 20px;
+    justify-content:space-around;
+    align-items: end;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.footer_item1{
+    width: 100px;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 20px;
+    gap: 20px;
+}
+.footer_item2{
+    width: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    font-size: 20px;
+    gap: 20px;
+}
